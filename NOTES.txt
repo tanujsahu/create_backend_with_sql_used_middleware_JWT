@@ -1,0 +1,27 @@
+1) npm init
+2) npm i express
+3) npm i dotenv   es6:-(import 'dotenv/config')
+4) npm i mysql,mysql2
+5) npm i nodemon
+6) npm i cors
+7) npm i body-parser 
+                                 
+8) npm i @babel/cli @babel/core @babel/node @babel/preset-env --save-dev
+for convert old js tonew es6
+
+9) npm i rimraf nodemon --save-dev
+
+----------------
+"build": "rimraf dist && babel src --out-dir dist  --copy-files",
+"start": "node dist/server.js",
+"start:dev": "nodemon --exec babel-node server.js"
+----------------
+
+
+10) npm i jsonwebtoken
+
+
+//========================================== START APP ===============================
+npm install
+npm start
+localhost:3000
