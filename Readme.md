@@ -58,6 +58,6 @@ If you need to update `npm`, you can make it using `npm`! Cool right? After runn
 
     $ npm run build
 
-## Simple build for production
+## Simple for development
 
     $ npm run start:dev
